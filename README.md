@@ -1,20 +1,38 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# task-manager
 
-# Run and deploy your AI Studio app
+A task management application built with React, Express, and SQLite.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/4e148234-5017-4e06-b797-8ce972ffff42
+- User authentication
+- Project management
+- Task tracking
+- Team collaboration
+- Due date notifications
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
-
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+   ```
+   npm install
+   ```
+
+2. Generate Prisma client:
+   ```
+   npx prisma generate
+   ```
+
 3. Run the app:
-   `npm run dev`
+   ```
+   npm run dev
+   ```
+
+4. Open http://localhost:3000
+
+## Tech Stack
+
+- React 19
+- Express
+- SQLite with Prisma
+- TypeScript
+- Vite
